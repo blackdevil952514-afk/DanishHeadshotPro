@@ -48,16 +48,23 @@ public class MainActivity extends Activity {
         return t;
     }
 
-    private Button button(String label) {
-        Button b = new Button(this);
-        b.setText(label);
-        b.setTextColor(bg);
-        b.setAllCaps(false);
-        b.setTextSize(14);
-        b.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
-        b.setBackground(shape(green,18));
-        return b;
-    }
+    
+private Button button(String label) {
+    Button b = new Button(this);
+    b.setText(label);
+    b.setTextColor(Color.BLACK);
+    b.setTextSize(14);
+    b.setGravity(Gravity.CENTER);
+    b.setTypeface(Typeface.DEFAULT, Typeface.BOLD);
+    b.setAllCaps(false);
+    b.setIncludeFontPadding(false);
+    b.setPadding(8, 0, 8, 0);
+    b.setMinHeight(52);
+    b.setMinimumHeight(52);
+    b.setBackground(shape(green, 18));
+    return b;
+}
+    
 
     private void base(String title) {
         root = new LinearLayout(this);
