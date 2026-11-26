@@ -13,12 +13,13 @@ import java.util.Random;
 
 public class MainActivity extends Activity {
 
-    private final int bg = Color.rgb(8,13,22);
-    private final int panel = Color.rgb(18,27,42);
-    private final int green = Color.rgb(57,245,165);
-    private final int blue = Color.rgb(0,210,255);
-    private final int white = Color.WHITE;
-    private final int muted = Color.rgb(163,178,198);
+    
+private final int bg = Color.rgb(7,7,10);
+private final int panel = Color.rgb(23,18,22);
+private final int green = Color.rgb(255,35,55);
+private final int blue = Color.rgb(255,35,55);
+private final int white = Color.WHITE;
+private final int muted = Color.rgb(190,178,184);
 
     private LinearLayout root, content;
     private int score = 0;
